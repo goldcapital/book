@@ -1,0 +1,23 @@
+###admin book qushadi
+POST  localhost:8081/book/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzM3NzksImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJhcHBMYW5ndWFnZSI6InV6IiwiZXhwIjoxNzI4NjYwMTc5fQ.tF8KvyQuaJOc71Vkr6Lh5btbynPiv0s3kpVvkRM5x_vlZcvwbHdxppJiEWyNJEh5YSegONUcVin3P85PMhowpg
+
+{
+  "author": "Spring",
+  "publishYear": "2024/11/11:41",
+  "title": "java",
+  "size": "4"
+}
+####
+GET localhost:8081/book/pagination?page=1&size=6
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzM3NzksImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJhcHBMYW5ndWFnZSI6InV6IiwiZXhwIjoxNzI4NjYwMTc5fQ.tF8KvyQuaJOc71Vkr6Lh5btbynPiv0s3kpVvkRM5x_vlZcvwbHdxppJiEWyNJEh5YSegONUcVin3P85PMhowpg
+
+###boooklar ruyhatini chiqaradi
+GET localhost:8081/book/book_all
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzM3NzksImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJhcHBMYW5ndWFnZSI6InV6IiwiZXhwIjoxNzI4NjYwMTc5fQ.tF8KvyQuaJOc71Vkr6Lh5btbynPiv0s3kpVvkRM5x_vlZcvwbHdxppJiEWyNJEh5YSegONUcVin3P85PMhowpg
+###BOOK_ID BUYICHA OLISH
+GET localhost:8081/book/get_by_id/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzM3NzksImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJhcHBMYW5ndWFnZSI6InV6IiwiZXhwIjoxNzI4NjYwMTc5fQ.tF8KvyQuaJOc71Vkr6Lh5btbynPiv0s3kpVvkRM5x_vlZcvwbHdxppJiEWyNJEh5YSegONUcVin3P85PMhowpg
+
+###

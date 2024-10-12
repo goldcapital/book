@@ -1,0 +1,31 @@
+POST localhost:8081/profile/book/take_book
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzM3NzksImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJhcHBMYW5ndWFnZSI6InV6IiwiZXhwIjoxNzI4NjYwMTc5fQ.tF8KvyQuaJOc71Vkr6Lh5btbynPiv0s3kpVvkRM5x_vlZcvwbHdxppJiEWyNJEh5YSegONUcVin3P85PMhowpg
+
+{
+  "book_id": "3",
+  "duration": "21"
+}
+
+###booklar ruyhati
+GET localhost:8081/profile/book/get_all
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzM3NzksImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6IlJPTEVfQURNSU4iLCJhcHBMYW5ndWFnZSI6InV6IiwiZXhwIjoxNzI4NjYwMTc5fQ.tF8KvyQuaJOc71Vkr6Lh5btbynPiv0s3kpVvkRM5x_vlZcvwbHdxppJiEWyNJEh5YSegONUcVin3P85PMhowpg
+
+### user book olish
+POST localhost:8081/profile/book/take_book
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzYyODYsImVtYWlsIjoibXVoYW1tYWRhYmR1cmFpbW92NUBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9VU0VSIiwiYXBwTGFuZ3VhZ2UiOiJ1eiIsImV4cCI6MTcyODY2MjY4Nn0.ak7RTP4HhOZf45t9Sgxd_8lwV7xCbPbiimbJeNpmjEwwIwivb7d_5AS7I1lmA0xflaRRaJeQtElJGPAKKTUq-w
+
+{
+  "book_id": "10",
+  "duration": "21"
+}
+
+
+###murojat qilgan user kitoblari
+GET localhost:8081/profile/book/get_book_profile
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg2NzIxMDAsImVtYWlsIjoibXVoYW1tYWRhYmR1cmFpbW92NUBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9VU0VSIiwiYXBwTGFuZ3VhZ2UiOiJ1eiIsImV4cCI6MTcyODc1ODUwMH0.x-iP8kupjt5iskkT3lBg-svujrGitUvsMZCEQQ8ytwWzG5in-mWF8bonaKnBV2EzCKaCN0rp5Ib2zge98JHdrQ
+
+###user olgan kutobni qaytarish
+PUT  localhost:8081/profile/book/return_book/10
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mjg1NzYyODYsImVtYWlsIjoibXVoYW1tYWRhYmR1cmFpbW92NUBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9VU0VSIiwiYXBwTGFuZ3VhZ2UiOiJ1eiIsImV4cCI6MTcyODY2MjY4Nn0.ak7RTP4HhOZf45t9Sgxd_8lwV7xCbPbiimbJeNpmjEwwIwivb7d_5AS7I1lmA0xflaRRaJeQtElJGPAKKTUq-w

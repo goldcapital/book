@@ -1,0 +1,29 @@
+POST localhost:8081/auth/registration/email
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "email": "muhammadabduraimov5@gmail.com",
+  "username": "Muhammad",
+  "password": "2002"
+}
+
+###
+POST  localhost:8081/auth/loge
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "email": "admin@gmail.com",
+  "password": "1234"
+}
+
+###
+POST  localhost:8081/auth/loge
+Content-Type: application/json
+Accept-Language: uz
+
+{
+  "email": "muhammadabduraimov5@gmail.com",
+  "password": "2002"
+}
